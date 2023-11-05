@@ -1,0 +1,124 @@
+body{
+    background-image: url('https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?cs=srgb&dl=pexels-instawalli-176851.jpg&fm=jpg');
+      /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: inline;
+
+  margin: 0;
+
+}
+
+#warZone{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.ussAssembly{
+    /* border: solid black; */
+    height: 37rem;
+    width: 30em;
+}
+.alienShip{
+    /* border: solid black; */
+    height: 37rem;
+    width: 30em;
+    align-items: center;
+}
+#attackbtn{
+    border: solid black;
+    background-color:  rgb(19, 135, 207);
+    height: 3em;
+    width: 5em;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;    
+}
+#attackbtn:hover{ 
+    box-shadow: 3px 2px 3px 3px  whitesmoke;
+}
+#attackbtn:active{ 
+     transform: translate(2px);
+    }
+#retreatbtn{
+    border: solid black;
+    background-color: rgb(19, 135, 207);
+    height: 3em;
+    width: 5em;
+    display: flex;
+    align-items: center;   
+    cursor: pointer;
+    border-radius: 10px;   
+}
+#retreatbtn:hover{
+    box-shadow: 3px 2px 3px 3px  whitesmoke;
+}
+#retreatbtn:active{
+    transform: translate(2px);
+}
+.ussScore{
+/* border: solid red; */
+background-color: aqua;
+height: 8em;
+width: 15em;
+margin-left:8em; 
+margin-top: 2em;
+box-shadow: 3px 2px 3px 3px  whitesmoke;  
+border-radius: 10px; 
+display: flex ;
+justify-content: center;
+align-items: center;
+}
+
+.alienScore{
+    /* border: solid red; */
+    background-color: aqua;
+    height: 8em;
+    width: 15em;
+    margin-left:8em; 
+    margin-top: 2em; 
+    box-shadow: 3px 2px 3px 3px  whitesmoke;  
+    border-radius: 10px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 12em;
+    width: 15em ;
+     margin-left:8em; 
+     margin-top: 2em;   
+}
+.nameBox{
+    height:2em;
+    width: 13em;
+    background-color: aquamarine;
+    text-align: center;
+    font-style: bold;
+    margin-top: 3em;
+    margin-left: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    /* border: solid black; */
+    height: 15rem;
+    width: 18em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+.message{
+    margin: 10px;
+
+}
